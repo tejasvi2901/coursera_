@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+ }
+ 
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+.navbar-brand{
+	padding-top: 25px 
+	margin-left: 0px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'oxygen', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-toggle{
+  border-color: solid black;
+  background-color: white;
+}
+.navbar-toggle:hover{
+  background-color:white;
+  border-width: 5px;
+  border-color: #C7C79E;
+}
+#nav-list {
+  margin-top: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+#nav-list a {
+  color: #951C49;
+}
+#nav-list a:hover {
+  color: white;
+  text-decoration: none;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.divider{
+	width: 100%;
+	color: 2px solid black;
+}
+
+
+/* body */
+#maincontent{
+	align-items:  right;
+}
+h2{
+	text-align: center;
+}
+
+/* 3 sections */
+.stylez{
+	position: relative;
+	background-color: #61122f;
+	border: 1px solid black;
+	margin: 5px;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+h3{
+	text-align: center;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+p{
+	color: white;
+	margin: 5px;
+	padding: 10px;
+}
+
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .container{
+  	height: 50px;
+  }
+  /* End Header */
