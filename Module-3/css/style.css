@@ -10,6 +10,13 @@
   border-bottom: 2px solid black;
   margin-bottom: 30px;
 }
+div.container{
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+	align-items: left;
+	text-align: left;
+}
 .navbar-brand{
 	padding-top: 25px 
 	margin-left: 0px;
@@ -73,7 +80,7 @@ h2{
 }
 h3{
 	text-align: center;
-	color: white;
+	color: #f6b319 ;
 	margin: 5px;
 	padding: 5px;
 }
