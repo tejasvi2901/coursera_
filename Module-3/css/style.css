@@ -15,7 +15,6 @@
 	margin-left: 0px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'oxygen', serif;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -52,10 +51,6 @@
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
-}
-.divider{
-	width: 100%;
-	color: 2px solid black;
 }
 
 
