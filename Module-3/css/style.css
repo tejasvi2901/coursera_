@@ -14,12 +14,12 @@ div.container{
 	margin: 0px;
 	padding: 0px;
 	width: 250px;
-	align-items: left;
-	text-align: left;
 }
 .navbar-brand{
 	padding-top: 25px 
 	margin-left: 0px;
+	align-items: left;
+	text-align: left;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-size: 1.5em;
@@ -78,11 +78,9 @@ h2{
 	margin-bottom: 30px;
 	padding: 5px;
 }
-.foo{
-	color: #ffc107 ;
-}
 h3{
 	text-align: center;
+	color: #fff;
 	margin: 5px;
 	padding: 5px;
 }
